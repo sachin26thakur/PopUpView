@@ -22,6 +22,8 @@
 		F439DFA4191F3DE400225E89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F439DF83191F3DE300225E89 /* UIKit.framework */; };
 		F439DFAC191F3DE400225E89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F439DFAA191F3DE400225E89 /* InfoPlist.strings */; };
 		F439DFAE191F3DE400225E89 /* POPUPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F439DFAD191F3DE400225E89 /* POPUPTests.m */; };
+		F439DFBC191FDE9F00225E89 /* STPop.m in Sources */ = {isa = PBXBuildFile; fileRef = F439DFBB191FDE9F00225E89 /* STPop.m */; };
+		F439DFBD191FDE9F00225E89 /* STPop.m in Sources */ = {isa = PBXBuildFile; fileRef = F439DFBB191FDE9F00225E89 /* STPop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F439DFA9191F3DE400225E89 /* POPUPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POPUPTests-Info.plist"; sourceTree = "<group>"; };
 		F439DFAB191F3DE400225E89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F439DFAD191F3DE400225E89 /* POPUPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPUPTests.m; sourceTree = "<group>"; };
+		F439DFBA191FDE9F00225E89 /* STPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPop.h; sourceTree = "<group>"; };
+		F439DFBB191FDE9F00225E89 /* STPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				F439DF98191F3DE300225E89 /* STViewController.m */,
 				F439DF9A191F3DE300225E89 /* Images.xcassets */,
 				F439DF86191F3DE300225E89 /* Supporting Files */,
+				F439DFBA191FDE9F00225E89 /* STPop.h */,
+				F439DFBB191FDE9F00225E89 /* STPop.m */,
 			);
 			path = POPUP;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F439DFBC191FDE9F00225E89 /* STPop.m in Sources */,
 				F439DF99191F3DE300225E89 /* STViewController.m in Sources */,
 				F439DF8C191F3DE300225E89 /* main.m in Sources */,
 				F439DF90191F3DE300225E89 /* STAppDelegate.m in Sources */,
@@ -264,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F439DFBD191FDE9F00225E89 /* STPop.m in Sources */,
 				F439DFAE191F3DE400225E89 /* POPUPTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +483,7 @@
 				F439DFB3191F3DE400225E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F439DFB4191F3DE400225E89 /* Build configuration list for PBXNativeTarget "POPUPTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				F439DFB6191F3DE400225E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

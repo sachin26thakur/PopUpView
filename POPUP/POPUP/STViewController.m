@@ -7,6 +7,7 @@
 //
 
 #import "STViewController.h"
+#import "STPop.h"
 
 @interface STViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    STPop *pop = [[STPop alloc] initWithFrame:self.view.frame otherButtonTitles:@"sachin",@"thakur",nil];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

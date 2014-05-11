@@ -12,10 +12,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
-    //This is first commit line
-    //This is secnd line commit 
     // Override point for customization after application launch.
     return YES;
 }
